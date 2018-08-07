@@ -73,7 +73,7 @@
 			E(\prod_{i=1}^N x_i)	& = \sum_{n=1}^k \frac{1}{k}E(\prod_{i=1}^n x_i) \\
 									& = \frac{\sum_{n=1}^k \prod_{i=1}^n E(x_i)}{k} \\
 									& = \frac{\sum_{n=1}^k (\mu ^n)}{k} \\
-									& = \frac{\mu^{k+1} - 1}{(\mu - 1)k} \\
+									& = \frac{\mu^{k+1} - \mu}{(\mu - 1)k} \\
 		\end{align*}
 		
 		En el primer paso, hago suma sobre todos los casos para $N$, por la probabilidad de cada uno (que es $\frac{1}{k}$). Puedo sacar la productoria para afuera en el paso 2 por linealidad de la esperanza.
